@@ -32,27 +32,29 @@ This demo utilizes:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/saimadhu-polamuri/generative-ai-projects.git
-cd generative-ai-projects/financial-agent
-
-
-2️⃣ Create a Virtual Environment (Recommended)
-```bash
-python -m venv venv
-source venv/bin/activate  # On macOS/Linux
-venv\Scripts\activate     # On Windows
-
-
-3️⃣ Install Dependencies
+    git clone https://github.com/saimadhu-polamuri/generative-ai-projects.git
+    cd generative-ai-projects/financial-agent
 ```
-pip install -r requirements.txt
+
+
+### 2️⃣ Create a Virtual Environment (Recommended)
+```bash
+    python -m venv venv
+    source venv/bin/activate  # On macOS/Linux
+    venv\Scripts\activate     # On Windows
+```
+
+
+### 3️⃣ Install Dependencies
+```bash
+    pip install -r requirements.txt
+```
 
 
 ## 📝 Code Overview
 ## 🔍 Web Search Agent
 Uses DuckDuckGo to search for relevant information with source verification.
 
-```md
 
 ```python
 web_search_agent = Agent(
@@ -64,12 +66,11 @@ web_search_agent = Agent(
     show_tool_calls=True,
     markdown=True
 )
-```md
+```
 
 ## 💰 Finance AI Agent
 Fetches stock prices, analyst ratings, and company news from Yahoo Finance.
 
-```md
 
 ```python
 finance_agent = Agent(
@@ -88,12 +89,12 @@ finance_agent = Agent(
     show_tool_calls=True,
     markdown=True,
 )
-```md
+```
 
 # 🧠 Multi-Agent System
 Combines web search and finance analysis for a comprehensive AI-driven financial research system.
 
-```md
+
 
 ```python
 multi_ai_agent = Agent(
@@ -107,26 +108,27 @@ multi_ai_agent.print_response(
     "Summarize analyst recommendation and share the latest news for Apple",
     stream=True
 )
-```md
+```
 
 ## ▶️ Running the AI Agent
 Run the Finance AI Agent script:
-```
+```bash
 python finance_agent.py
+```
 
 
 You should see real-time financial insights displayed, including:
 
-** Stock Market Data **
-** Analyst Recommendations **
-** Latest Financial News **
+- Stock Market Data
+- Analyst Recommendations
+- Latest Financial News
 
 
 ## 📌 Future Enhancements
-✅ ** Add multi-modal AI capabilities 📷 **
-✅ ** Implement financial trend predictions 📈 **
-⏳ ** Enhance RAG-based summarization 🧠 **
-⏳ ** Explore AutoGPT integrations 🤖 **
+- ✅ Add multi-modal AI capabilities 📷
+- ✅ Implement financial trend predictions 📈
+- ⏳ Enhance RAG-based summarization 🧠
+- ⏳  Explore AutoGPT integrations 🤖
 
 # 📢 Connect with Me
 
