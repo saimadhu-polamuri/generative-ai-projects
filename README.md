@@ -46,12 +46,21 @@ The repository is structured as follows:
 This repository is a work-in-progress, and I welcome suggestions, ideas, and collaborations. Feel free to fork, open an issue, or create a pull request.
 
 
-## 📢 Connect with Me
+## 📢 Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/saimadhu/)
-[![Dataspirant Website](https://img.shields.io/badge/Blog-21759B?style=for-the-badge&logo=wordpress&logoColor=white)](https://dataaspirant.com/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saimadhu@dataaspirant.com)
-[![Youtube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]([https://www.linkedin.com/in/saimadhu/](https://www.youtube.com/@dataaspirant))
+<a href="https://www.linkedin.com/in/saimadhu/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>  
+<a href="https://dataaspirant.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Blog-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="Blog">
+</a>  
+<a href="mailto:saimadhu@dataaspirant.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>   
+<a href="https://www.youtube.com/@dataaspirant" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube">
+</a>
+
 
 
 ## ⭐ If you find this repository useful, don’t forget to star it! 🌟
